@@ -27,10 +27,10 @@ your stock can help you figure out which orders you can fulfill on time and corr
 
 MOTIVATION
     
-    The primary goal of inventory management is to ensure that all kinds of materials are accessible whenever the production department 
-needs them, ensuring thatproduction is not stopped or slowed down due to a lack of resources.To fulfill the needs for quality products,
-the concern must maintain an adequate supply ofcompleted items to guarantee that customers’ orders are fulfilled. It will increase the 
-company’s brand image.
+    The primary goal of inventory management is to ensure that all kinds of materials are accessible whenever
+the production department needs them, ensuring thatproduction is not stopped or slowed down due to a lack of
+resources.To fulfill the needs for quality products,the concern must maintain an adequate supply ofcompleted 
+items to guarantee that customers’ orders are fulfilled. It will increase the company’s brand image.
 
 OBJECTIVE
 
