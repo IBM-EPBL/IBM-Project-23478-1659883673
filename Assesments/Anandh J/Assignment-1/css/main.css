@@ -1,0 +1,44 @@
+/* Buttons */
+/* Inputs */
+/* Timeline custom component */
+
+html {
+  scroll-behavior: smooth; }
+
+.site-title {
+  font-size: 1.25rem;
+  line-height: 2.5rem; }
+
+.nav-link {
+  padding: 0;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  color: rgba(0, 0, 0, 0.5); }
+
+.nav-link:hover,
+.nav-link:focus,
+.active .nav-link {
+  color: rgba(0, 0, 0, 0.8); }
+
+.nav-item + .nav-item {
+  margin-left: 1rem; }
+
+.cover {
+  border-radius: 10px; }
+
+.cover-bg {
+  background-color: #dcb922;
+  border-radius: 10px 10px 0 0; }
+
+.avatar {
+  max-width: 216px;
+  max-height: 216px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.avatar img {
+  filter: grayscale(100%); }  
+
+
