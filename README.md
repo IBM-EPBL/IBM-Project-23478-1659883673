@@ -1,12 +1,12 @@
-# IBM-Project-23478-1659883673
+﻿# IBM-Project-23478-1659883673
 Inventory Managment System for Retailers
 
-INTRODUCTION
+# INTRODUCTION
 
   	Inventory software, also known as an inventory management system, is a solution that allows businesses 
 to track, organize, and oversee all of their inventory, as well as their inventory-related processes. 
 Retail inventory management isthe process of ensuring you carry merchandise that shoppers want, with neither
-too little nor too much on hand. By managinginventory, retailers meet customer demand without running 
+too little nor too much on hand. By managing inventory, retailers meet customer demand without running 
 out of stock or carrying excess supply.
 
     In practice, effective retail inventory management results in lower costs and a better understanding
@@ -29,29 +29,28 @@ reports can reduce or even completely eliminate human error.Having an accurate r
 you figure out which orders you can fulfill on time and correctly, reducing the chances of returns.
 
 
-MOTIVATION
+# MOTIVATION
     
     The primary goal of inventory management is to ensure that all kinds of materials are accessible whenever
-the production department needs them, ensuring thatproduction is not stopped or slowed down due to a lack of
-resources.To fulfill the needs for quality products,the concern must maintain an adequate supply ofcompleted 
-items to guarantee that customers’ orders are fulfilled. It will increase the company’s brand image.
+the production department needs them, ensuring that production is not stopped or slowed down due to a lack of
+resources.To fulfill the needs for quality products,the concern must maintain an adequate supply ofcompleted items to guarantee that customers’ orders are fulfilled. It will increase the company’s brand image.
 
-OBJECTIVE
+# OBJECTIVE
 
-To ensure a continuous supply of materials and stock so that production should not suffer at the time of customers demand.
-To avoid both overstocking and under-stocking of inventory.
-To maintain the availability of materials whenever and wherever required in enough quantity.
-To maintain minimum working capital as required for operational and sales activities.
-To optimize various costs indulged with inventories like purchase cost, carrying a cost, storage cost, etc.
-To keep material cost under control as they contribute to reducing the cost of production.
-To eliminate duplication in ordering stocks.
-To minimize loss through deterioration, pilferage, wastages, and damages.
-To ensure everlasting inventory control so that materials shown in stock ledgers should be physically lying in the warehouse.
-To ensure the quality of goods at reasonable prices.
-To facilitate furnishing of data for short and long-term planning with a controlled inventory.
-To supply the required material continuously.
-To maintain a systematic record of inventory.
-To make stability in price.
+• To ensure a continuous supply of materials and stock so that production should not suffer at the time of customers demand.
+• To avoid both overstocking and under-stocking of inventory.
+• To maintain the availability of materials whenever and wherever required in enough quantity.
+• To maintain minimum working capital as required for operational and sales activities.
+• To optimize various costs indulged with inventories like purchase cost, carrying a cost, storage cost, etc.
+• To keep material cost under control as they contribute to reducing the cost of production.
+• To eliminate duplication in ordering stocks.
+• To minimize loss through deterioration, pilferage, wastages, and damages.
+• To ensure everlasting inventory control so that materials shown in stock ledgers should be physically lying in the warehouse.
+• To ensure the quality of goods at reasonable prices.
+• To facilitate furnishing of data for short and long-term planning with a controlled inventory.
+• To supply the required material continuously.
+• To maintain a systematic record of inventory.
+• To make stability in price.
 
 
 
