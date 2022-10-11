@@ -38,18 +38,31 @@ resources.To fulfill the needs for quality products,the concern must maintain an
 # OBJECTIVE
 
 • To ensure a continuous supply of materials and stock so that production should not suffer at the time of customers demand.
+
 • To avoid both overstocking and under-stocking of inventory.
+
 • To maintain the availability of materials whenever and wherever required in enough quantity.
+
 • To maintain minimum working capital as required for operational and sales activities.
+
 • To optimize various costs indulged with inventories like purchase cost, carrying a cost, storage cost, etc.
+
 • To keep material cost under control as they contribute to reducing the cost of production.
+
 • To eliminate duplication in ordering stocks.
+
 • To minimize loss through deterioration, pilferage, wastages, and damages.
+
 • To ensure everlasting inventory control so that materials shown in stock ledgers should be physically lying in the warehouse.
+
 • To ensure the quality of goods at reasonable prices.
+
 • To facilitate furnishing of data for short and long-term planning with a controlled inventory.
+
 • To supply the required material continuously.
+
 • To maintain a systematic record of inventory.
+
 • To make stability in price.
 
 
