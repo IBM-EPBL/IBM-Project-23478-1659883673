@@ -71,6 +71,12 @@ resources.To fulfill the needs for quality products,the concern must maintain an
 
 • One of the most common challenges to sound inventory management is preventing the overselling of products and running out of inventory. Using historical and seasonal data trends can help you accurately predict customer orders.
 
+# WORK FLOW
+![image](https://user-images.githubusercontent.com/95023048/195257156-f7221dc0-8a8e-4d1c-a012-a37a1a0e8576.png)
+ 
+# TECHNICAL ARCHITECTURE
+
+![image](https://user-images.githubusercontent.com/95023048/195257411-90be4f71-04ef-4573-b18a-0e6799f8431f.png)
 
 
 
