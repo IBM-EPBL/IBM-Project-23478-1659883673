@@ -3,24 +3,24 @@ Inventory Managment System for Retailers
 
 # INTRODUCTION
 
-  	Inventory software, also known as an inventory management system, is a solution that allows businesses 
+  Inventory software, also known as an inventory management system, is a solution that allows businesses 
 to track, organize, and oversee all of their inventory, as well as their inventory-related processes. 
 Retail inventory management isthe process of ensuring you carry merchandise that shoppers want, with neither
 too little nor too much on hand. By managing inventory, retailers meet customer demand without running 
 out of stock or carrying excess supply.
 
-    In practice, effective retail inventory management results in lower costs and a better understanding
+   In practice, effective retail inventory management results in lower costs and a better understanding
 of sales patterns. Retail inventory management tools and methods give retailers more information on which 
 to run their businesses. Applications have been developed to help retailers track and manage stocks related to
 their own products.The System will ask retailers to create their accounts by providing essential details. 
 Retailers can access their accounts by logging into the application.
 
-  	Once retailers successfully log in to the application they can update their inventory details, also users
+  Once retailers successfully log in to the application they can update their inventory details, also users
 will be able to add new stock by submitting essential details related to the stock. They can view details of the 
 current inventory. The System will automatically send an email alert to the retailers if there is no stock found
 in their accounts. So that they can order new stock.
 
-	  Inventory software can save you from unnecessary costs. There are a number of common inventory expenses 
+  Inventory software can save you from unnecessary costs. There are a number of common inventory expenses 
 that can easily be avoided, like overstocking which requires additional storage space, human error, and late or 
 incorrect order fulfilment which leads to returns. Using inventory software can answer each of these problems 
 and more.Inventory forecasting can solve the problem of overstocking by telling you just how much stock you are 
@@ -31,7 +31,7 @@ you figure out which orders you can fulfill on time and correctly, reducing the 
 
 # MOTIVATION
     
-    The primary goal of inventory management is to ensure that all kinds of materials are accessible whenever
+   The primary goal of inventory management is to ensure that all kinds of materials are accessible whenever
 the production department needs them, ensuring that production is not stopped or slowed down due to a lack of
 resources.To fulfill the needs for quality products,the concern must maintain an adequate supply ofcompleted items to guarantee that customers’ orders are fulfilled. It will increase the company’s brand image.
 
@@ -64,6 +64,13 @@ resources.To fulfill the needs for quality products,the concern must maintain an
 • To maintain a systematic record of inventory.
 
 • To make stability in price.
+
+# PROBLEM STATEMENT
+
+• Customer demand is constantly shifting. Keeping too much could result in obsolete inventory you’re unable to sell, while keeping too little could leave you unable to fulfill customer orders. Order strategies for core items, as well as technology to create and execute an inventory plan, can help compensate for changing demand.
+
+• One of the most common challenges to sound inventory management is preventing the overselling of products and running out of inventory. Using historical and seasonal data trends can help you accurately predict customer orders.
+
 
 
 
