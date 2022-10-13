@@ -65,11 +65,6 @@ resources.To fulfill the needs for quality products,the concern must maintain an
 
 • To make stability in price.
 
-# PROBLEM STATEMENT
-
-• Customer demand is constantly shifting. Keeping too much could result in obsolete inventory you’re unable to sell, while keeping too little could leave you unable to fulfill customer orders. Order strategies for core items, as well as technology to create and execute an inventory plan, can help compensate for changing demand.
-
-• One of the most common challenges to sound inventory management is preventing the overselling of products and running out of inventory. Using historical and seasonal data trends can help you accurately predict customer orders.
 
 # WORK FLOW
 ![image](https://user-images.githubusercontent.com/95023048/195257156-f7221dc0-8a8e-4d1c-a012-a37a1a0e8576.png)
