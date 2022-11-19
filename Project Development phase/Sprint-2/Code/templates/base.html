@@ -1,0 +1,75 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+    
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style1.css')}}">
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{url_for('static', filename='addproduct.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='site_icon.png') }}" class="js-favicon">
+    <!--div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div-->
+    <script src="{{ url_for('static', filename='jquery-3.3.1.slim.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+    <link rel="stylesheet" href="{{url_for('static',filename='product.css')}}">
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Retailer Inventory Management</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#footer">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        {% if not session['name'] %}
+        <li class="nav-item active">
+          <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/register">Register <span class="sr-only">(current)</span></a>
+        </li>
+      {%endif %}
+     
+      
+      {% if session['name'] %}
+      <li class="nav-item active">
+        <a class="nav-link" href="/logout">Logout <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id = "usrname">
+        <a class="nav-link" href="#">Welcome <span style="color: rgb(241, 85, 85);">{{session['name']}} </span><span class="sr-only">(current)</span></a>
+      </li>
+      {%endif %}
+     
+      <li class="nav-item active">
+        <a class="nav-link" href="/cart">Cart <span class="sr-only">(current)</span></a>
+      </li>
+
+      </ul>
+     
+    </div>
+  </nav>
+  
+  {% block content %}
+
+  {% endblock %}
+<footer id="footer">
+    
+      <h1 style="color: white;">INVENTORY MANAGEMENT</h1>
+      <p style="color: white;">Inventory management is an application for retailers that can help them to manage stocks.</p>
+    
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="app.js"></script>
+  </html>

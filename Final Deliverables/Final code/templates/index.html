@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+  {% block content %}
+  <div class="container d-flex justify-content-center mt-50 mb-50">
+            
+    <div class="row">
+    {%for item in product %}
+       <div class="col-md-4 mt-2">
+        
+        <form action="/cartadd" method="post"> 
+            <div class="card" style="height: 345px;">
+               
+                                <div class="card-body">
+                                    <div class="card-img-actions">
+                                        
+                                            <img src="{{item['IMGURL']}}" class="card-img img-fluid" width="96" height="350" alt="">
+                                          
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="card-body bg-light text-center">
+                                    <div class="mb-2">
+                                        <h6 class="font-weight-semibold mb-2">
+                                            <a href="#" class="text-default mb-2" data-abc="true">{{item['PRODUCTNAME']}}</a>
+                                        </h6>
+
+                                    </div>
+
+                                    <h3 class="mb-0 font-weight-semibold"> ₹{{item['PRICE']}}</h3>
+                                    <input type="number" style="width: 50%;"  name="quantity" placeholder="Quantity" min="0" max="10"/>
+                                    <input type="hidden" name="id" value="{{item['PRODUCTID']}}">
+                                    
+                                    <button type="submit" class="btn bg-cart" id="{{item['PRODUCTID']}}"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>   
+                                </div>
+                            </div>    
+                        </form>                
+       </div> 
+{% endfor %}
+
+    </div>
+</div>
+
+  {% endblock %}    
