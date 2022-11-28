@@ -1,6 +1,8 @@
 ﻿# IBM-Project-23478-1659883673
 Inventory Managment System for Retailers
 
+APPLICATION LIVE URL : <a href="http://159.122.187.235:31953/" target="_blank">Click here</a>
+
 # INTRODUCTION
 
   Inventory software, also known as an inventory management system, is a solution that allows businesses 
